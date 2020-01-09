@@ -1,0 +1,8 @@
+from aip import AipOcr
+
+""" 你的 APPID AK SK """
+APP_ID = '16699053'
+API_KEY = 'k0elGVCMLmiRTwfWmz5SHSBL'
+SECRET_KEY = '8P78INpHyiUIp3hLXvqIM7FA27tZrYYD'
+
+client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
